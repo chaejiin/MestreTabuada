@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mestre da Tabuada</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./js/script.js"></script>
+</head>
+<body>
+  <h1>Mestre da tabuada</h1>
+  <p>Olá, qual a tabuada que você deseja resolver hoje?</p>
+
+  <form id="formulario">
+    <input type="number" id="tabuada" placeholder="Digite o número inicial" required>
+    <input type="number" id="multiplicador" placeholder="Digite por qual multiplicador deseja começar:" required>
+    <input type="number" id="limite" placeholder="Digite o limite da tabuada" required>
+    <button type="input">Calcular</button>
+  </form>
+
+  <section>
+    <p>A seguir, resultado:</p>
+    <table id="resultado">
+      <thead>
+        <tr>
+          <th>Expressão</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Vazio -->
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
